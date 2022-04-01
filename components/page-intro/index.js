@@ -12,7 +12,7 @@ const PageIntro = () => {
           <div className="page-intro__slide" style={{ backgroundImage: "url('/images/slide-1.jpg')" }}>
             <div className="container">
               <div className="page-intro__slide__content">
-                <h2>Sale of the summer collection</h2>
+                <h2>NFT CYPERPUNK 2022 COLLECTIONS</h2>
                 <a href="#" className="btn-shop"><i className="icon-right"></i>Shop now</a>
               </div>
             </div>
@@ -38,7 +38,7 @@ const PageIntro = () => {
               <i className="icon-shipping"></i>
               <div className="data-item__content">
                 <h4>Free Shipping</h4>
-                <p>On purchases over $199</p>
+                <p>Free fees</p>
               </div>
             </li>
             
@@ -54,7 +54,7 @@ const PageIntro = () => {
               <i className="icon-cash"></i>
               <div className="data-item__content">
                 <h4>Originality Guaranteed</h4>
-                <p>30 days warranty for each product from our store</p>
+                <p>Create by best Artists</p>
               </div>
             </li>
           </ul>
