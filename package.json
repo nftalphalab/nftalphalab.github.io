@@ -1,7 +1,7 @@
 {
   "name": "next-ecommerce",
   "version": "0.1.0",
-  "homepage": "https://github.com/nftalphalab.github.io",
+  "homepage": "https://nftalphalab.github.io",
   "private": true,
   "scripts": {
     "dev": "next dev",
