@@ -28,7 +28,7 @@ const ShoppingCart = () => {
             <table>
               <tbody>
                 <tr>
-                  <th style={{textAlign: 'left'}}>Product</th>
+                  <th style={{textAlign: 'left'}}>NFT</th>
                   <th>Color</th>
                   <th>Size</th>
                   <th>Ammount</th>

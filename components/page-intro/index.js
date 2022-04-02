@@ -12,7 +12,7 @@ const PageIntro = () => {
           <div className="page-intro__slide" style={{ backgroundImage: "url('/images/slide-1.jpg')" }}>
             <div className="container">
               <div className="page-intro__slide__content">
-                <h2>NFT CYPERPUNK 2022 COLLECTIONS</h2>
+                <h2>NFT BEARAVERSE 2022 COLLECTIONS</h2>
                 <a href="#" className="btn-shop"><i className="icon-right"></i>Shop now</a>
               </div>
             </div>

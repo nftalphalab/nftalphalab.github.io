@@ -6,8 +6,8 @@ const Footer = () => {
       <div className="container">
         <div className="site-footer__top">
           <div className="site-footer__description">
-            <h6><Logo /> <span>E</span>-Shop</h6>
-            <p>NFT Alpha Lab – Connect the Art peer to peer</p>
+            <h6><Logo /> <span>NFT</span>-Alpha Labs</h6>
+            <p>Connect the Art Peer to Peer</p>
             <ul className="site-footer__social-networks">
               <li><a href="#"><i className="icon-facebook"></i></a></li>
               <li><a href="#"><i className="icon-twitter"></i></a></li>
@@ -45,7 +45,7 @@ const Footer = () => {
       
       <div className="site-footer__bottom">
         <div className="container">
-          <p>DESIGN BY NFT Alpha Lab - © 2022. ALL RIGHTS RESERVED.</p>
+          <p>DESIGN BY NFT Alpha Labs - © 2022. ALL RIGHTS RESERVED.</p>
         </div>
       </div>
     </footer>
