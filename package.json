@@ -19,7 +19,6 @@
     "next"
   ],
   "dependencies": {
-    "gh-pages": "^3.2.3",
     "lodash": "^4.17.21",
     "next": "^11.1.0",
     "next-redux-wrapper": "^6.0.2",
@@ -42,6 +41,7 @@
   },
   "devDependencies": {
     "fslightbox-react": "^1.5.0",
+    "gh-pages": "^3.2.3",
     "node-fetch": "^2.6.1"
   }
 }
