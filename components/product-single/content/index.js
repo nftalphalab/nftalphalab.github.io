@@ -25,9 +25,6 @@ const Content = ({ product }) => {
         id: product.id,
       }
     ))
-  }
-
-  const addToCart = () => {
     dispatch(addProduct(
       { 
         id: product.id,
@@ -41,11 +38,16 @@ const Content = ({ product }) => {
     ))
   }
 
+  const addToCart = () => {
+    window.open( 
+      product.URL, "_blank");
+  }
+
   return (
     <section className="product-content">
       <div className="product-content__intro">
-        <h5 className="product__id">Product ID:<br></br>{product.id}</h5>
-        <span className="product-on-sale">Sale</span>
+        <h5 className="product__id">NFT ID:<br></br>{product.id}</h5>
+        <span className="product-on-sale">BERAVERSE</span>
         <h2 className="product__name">{product.name}</h2>
 
         <div className="product__prices">
@@ -98,7 +100,7 @@ const Content = ({ product }) => {
               </button>
             </div>
             
-            <button type="submit" onClick={() => addToCart()} className="btn btn--rounded btn--yellow">Add to cart</button>
+            <button type="submit" onClick={() => addToCart()} className="btn btn--rounded btn--yellow">OPENSEA</button>
             <button type="button" onClick={toggleFav} className={`btn-heart ${isFavourite ? 'btn-heart--active' : ''}`}><i className="icon-heart"></i></button>
           </div>
         </div>

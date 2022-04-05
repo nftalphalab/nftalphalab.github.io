@@ -13,7 +13,7 @@ const PageIntro = () => {
             <div className="container">
               <div className="page-intro__slide__content">
                 <h2>NFT BEARAVERSE 2022 COLLECTIONS</h2>
-                <a href="#" className="btn-shop"><i className="icon-right"></i>Shop now</a>
+                <a href="https://opensea.io/collection/beraverse" className="btn-shop"><i className="icon-right"></i>OPENSEA</a>
               </div>
             </div>
           </div>
@@ -24,7 +24,37 @@ const PageIntro = () => {
             <div className="container">
               <div className="page-intro__slide__content">
                 <h2>Make your house into a home</h2>
-                <a href="#" className="btn-shop"><i className="icon-right"></i>Shop now</a>
+                <a href="https://opensea.io/collection/beraverse" className="btn-shop"><i className="icon-right"></i>OPENSEA</a>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/slide-2.jpg')" }}>
+            <div className="container">
+              <div className="page-intro__slide__content">
+                <h2>Make your house into a </h2>
+                <a href="https://opensea.io/collection/beraverse" className="btn-shop"><i className="icon-right"></i>OPENSEA</a>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/slide-2.jpg')" }}>
+            <div className="container">
+              <div className="page-intro__slide__content">
+                <h2>Make your house into  home</h2>
+                <a href="https://opensea.io/collection/beraverse" className="btn-shop"><i className="icon-right"></i>OPENSEA</a>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/slide-2.jpg')" }}>
+            <div className="container">
+              <div className="page-intro__slide__content">
+                <h2>Make your house  a home</h2>
+                <a href="https://opensea.io/collection/beraverse" className="btn-shop"><i className="icon-right"></i>OPENSEA</a>
               </div>
             </div>
           </div>
@@ -37,16 +67,16 @@ const PageIntro = () => {
             <li>
               <i className="icon-shipping"></i>
               <div className="data-item__content">
-                <h4>Free Shipping</h4>
-                <p>Free fees</p>
+                <h4>Free gas</h4>
+                <p>Experience zero gas fees</p>
               </div>
             </li>
             
             <li>
               <i className="icon-shipping"></i>
               <div className="data-item__content">
-                <h4>99% Satisfied Customers</h4>
-                <p>Our clients' opinions speak for themselves</p>
+                <h4>Fast trade</h4>
+                <p>Set your own instant trading.</p>
               </div>
             </li>
             
@@ -54,7 +84,7 @@ const PageIntro = () => {
               <i className="icon-cash"></i>
               <div className="data-item__content">
                 <h4>Originality Guaranteed</h4>
-                <p>Create by best Artists</p>
+                <p>Same security as mainnet Ethereum</p>
               </div>
             </li>
           </ul>
